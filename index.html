@@ -1,1 +1,97 @@
-<html><body><h1>Gunnocalendar v12.2</h1><p>Placeholder build. Replace with full app code.</p></body></html>
+
+<!doctype html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Gunnocalendar — 3‑in‑1 (v12.2)</title>
+  <meta name="theme-color" content="#1b61e6"/>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="manifest" href="manifest.webmanifest"/>
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon-180.png"/>
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+    <h1>3‑in‑1 Calendar</h1>
+    <div class="right flex">
+      <select id="theme">
+        <option value="system">System</option>
+        <option value="light">Light</option>
+        <option value="dark" selected>Dark</option>
+      </select>
+      <a class="btn" href="#" id="installBtn" hidden>Install</a>
+    </div>
+    <div style="flex-basis:100%;font-size:14px;opacity:.95">
+      English · Islamic (Hijri, tabular) · Punjabi (پنجابی · Desi) &nbsp;
+      <span class="badge">Village: 58/5‑L Gunnō Bhattian</span>
+    </div>
+  </header>
+  <main>
+    <div class="card">
+      <div class="row">
+        <label for="baseDate"><b>Base date:</b></label>
+        <input id="baseDate" type="date"/>
+        <button id="todayBtn">Today</button>
+        <div class="right flex">
+          <button id="addReminder">+ Reminder</button>
+          <button id="exportBtn">Export</button>
+          <button id="importBtn">Import</button>
+        </div>
+      </div>
+      <div class="hr"></div>
+      <div id="outDay"></div>
+    </div>
+
+    <div class="card" id="farmingCard">
+      <h3>Farming Guide — <span id="farmMonth"></span></h3>
+      <ul id="farmListEN"></ul>
+      <div class="hr"></div>
+      <ul id="farmListUR" dir="rtl" style="font-family:'Noto Nastaliq Urdu', 'Noto Naskh Arabic', serif;"></ul>
+      <small id="farmNote"></small>
+    </div>
+
+    <div class="card" id="weatherCard">
+      <h3>Weather (Sahiwal)</h3>
+      <div class="kv"><div>Temp:</div><div id="temp"></div></div>
+      <div class="kv"><div>Wind:</div><div id="wind"></div></div>
+      <div class="kv"><div>Spray advice:</div><div id="spray"></div></div>
+      <small>Provider: AccuWeather (if key set) → fallback to Open‑Meteo. Save your AccuWeather key in Settings.</small>
+    </div>
+
+    <div class="card">
+      <details>
+        <summary><b>Settings</b></summary>
+        <div class="kv">
+          <div>Theme:</div>
+          <div><select id="theme2">
+            <option value="system">System</option>
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+          </select></div>
+        </div>
+        <div class="kv">
+          <div>AccuWeather API key:</div>
+          <div><input id="accuKey" placeholder="paste key" style="width:100%"/></div>
+        </div>
+        <div class="kv">
+          <div>Coordinates:</div>
+          <div><input id="coords" value="30.6709846,73.2896608" style="width:100%"/></div>
+        </div>
+        <button id="saveSettings">Save</button>
+      </details>
+    </div>
+
+    <div class="card">
+      <b>Events & Reminders</b>
+      <ul id="events"></ul>
+      <small>All saved locally on this device.</small>
+    </div>
+
+    <p class="muted"><small>Islamic uses tabular Hijri (civil). Punjabi months use fixed solar boundaries. Local dates may differ by ±1 day.</small></p>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
