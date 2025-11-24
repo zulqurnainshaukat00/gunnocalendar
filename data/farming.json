@@ -1,146 +1,66 @@
 {
-  "Chet": {
+  "cattak": {
     "en": [
-      "Prepare fields; last wheat irrigation if needed.",
-      "Check for aphids in wheat; spray only if threshold crossed.",
-      "Clean canal outlets; plan cotton seed."
+      "Cotton picking last rounds; prepare wheat seed and land.",
+      "Irrigate standing fodder as days get shorter; watch for pink bollworm residues in fields."
     ],
     "ur": [
-      "کھیتوں کی تیاری؛ ضرورت ہو تو گندم کی آخری آبپاشی۔",
-      "گندم میں افڈز کی نگرانی؛ حد سے زیادہ ہو تو ہی سپرے کریں۔",
-      "کھالے صاف کریں؛ کپاس کے بیج کی منصوبہ بندی۔"
+      "روئی کی چنائی کے آخری چکر؛ گندم کے بیج اور زمین کی تیاری کریں۔",
+      "چارے کو ہلکی آبپاشی دیں؛ کھیتوں میں گلابی سنڈی کے باقیات چیک کریں۔"
     ]
   },
-  "Vaisakh": {
+  "maghar": {
     "en": [
-      "Harvest wheat; store grain in dry place.",
-      "Start cotton sowing where temps > 20°C.",
-      "Irrigate fodder timely."
+      "Wheat: steady tillering after timely sowing (Nov 10–30).",
+      "Potato: early digging from first sowing; manage late blight in evening fog.",
+      "Mustard/Canola: flowering; keep field weed‑free.",
+      "Gram (chana): sprouting; avoid standing water; watch frost."
     ],
     "ur": [
-      "گندم کی کٹائی؛ دانہ خشک جگہ پر محفوظ کریں۔",
-      "جہاں درجہ حرارت 20°سے زائد ہو وہاں کپاس کی بوائی شروع کریں۔",
-      "چارہ کی بروقت آبپاشی۔"
+      "گندم: بر وقت بوائی کے بعد شگوفہ بننا جاری۔",
+      "آلو: ابتدائی بوائی والی فصل کی کھدائی شروع؛ شام کی دھند میں لیٹ بلائٹ کا خیال رکھیں۔",
+      "رائی/کینولا: پھول بننا؛ کھیت جڑی بوٹیوں سے پاک رکھیں۔",
+      "چنا: اگاؤ؛ پانی نہ کھڑا ہونے دیں؛ کہرے/پالے سے بچاؤ۔"
     ]
   },
-  "Jeth": {
+  "pooh": {
     "en": [
-      "Cotton gap‑filling and first weeding.",
-      "Irrigate orchards deeply.",
-      "Watch for pink bollworm pheromone traps."
+      "Wheat: first irrigation (wari) 18–21 days after sowing.",
+      "Frost nights possible; avoid evening irrigation on gram and vegetables."
     ],
     "ur": [
-      "کپاس میں گاپ فلنگ اور پہلی گوڈی۔",
-      "باغات کی گہری آبپاشی۔",
-      "پنک بال ورم کے فیرومون ٹریپس کی نگرانی۔"
+      "گندم: پہلی آبپاشی (واری) بوائی کے 18–21 دن بعد۔",
+      "سرد راتیں ممکن؛ چنے اور سبزیوں کو شام کے وقت پانی نہ دیں۔"
     ]
   },
-  "Harh": {
+  "maagh": {
     "en": [
-      "High heat: irrigate at night.",
-      "Check boron/zinc deficiency in cotton.",
-      "Mulch vegetables to conserve moisture."
+      "Wheat: weed control window; urea top‑dressing after irrigation.",
+      "Vegetables: monitor aphids/whitefly; use yellow sticky traps."
     ],
     "ur": [
-      "زیادہ گرمی: رات کو آبپاشی بہتر۔",
-      "کپاس میں بوران/زنک کمی کی جانچ۔",
-      "سبزیوں میں مَلچنگ سے نمی برقرار رکھیں۔"
+      "گندم: جڑی بوٹیوں کے تدارک کا بہترین وقت؛ آبپاشی کے بعد یوریا ڈالیں۔",
+      "سبزیاں: سفید مکھی/افڈ کا مشاہدہ؛ یلو سٹکی ٹریپس استعمال کریں۔"
     ]
   },
-  "Sawan": {
+  "phagan": {
     "en": [
-      "Monsoon: ensure drainage.",
-      "Paddy transplanting/window.",
-      "Monitor sheath blight in rice."
+      "Wheat: booting/ear emergence; irrigation scheduling is critical.",
+      "Gram: podding; avoid unnecessary irrigation before harvest."
     ],
     "ur": [
-      "مون سون: نکاسی آب یقینی بنائیں۔",
-      "چاول کی روپا ئی/ونڈو۔",
-      "کھیت میں شیٹھ بلیٹ کی نگرانی۔"
+      "گندم: بالی نکلنا؛ آبپاشی کا شیڈول نہایت اہم۔",
+      "چنا: پھلیاں بننا؛ کٹائی کے قریب غیرضروری پانی نہ دیں۔"
     ]
   },
-  "Bhadon": {
+  "cait": {
     "en": [
-      "Weed control in rice & fodder.",
-      "Check cotton for whitefly; use IPM.",
-      "Plan fodder for winter."
+      "Harvest planning for wheat and gram; check combines and sacks.",
+      "Sun‑dry seed; store with moisture below 12%."
     ],
     "ur": [
-      "چاول و چارہ میں جڑی بوٹی کنٹرول۔",
-      "کپاس میں سفید مکھی؛ آئی پی ایم اپنائیں۔",
-      "سردیوں کے چارے کی منصوبہ بندی۔"
-    ]
-  },
-  "Assu": {
-    "en": [
-      "Harvest early rice; proper drying.",
-      "Prepare fields for wheat/gram.",
-      "Soil testing for next season."
-    ],
-    "ur": [
-      "اوائل چاول کی کٹائی؛ مناسب خشکائی۔",
-      "گندم/چنے کے لیے زمین کی تیاری۔",
-      "اگلے سیزن کے لیے مٹی کا تجزیہ۔"
-    ]
-  },
-  "Kattak": {
-    "en": [
-      "Wheat seed selection & treatment.",
-      "Sow gram/mustard in rain‑fed areas.",
-      "Irrigate sugarcane ratoon."
-    ],
-    "ur": [
-      "گندم کے بیج کا انتخاب و ٹریٹمنٹ۔",
-      "بارانی علاقوں میں چنا/سرسوں کی بوائی۔",
-      "گنے کے رٹون کو آبپاشی۔"
-    ]
-  },
-  "Maghar": {
-    "en": [
-      "Wheat: steady growth.",
-      "Potato: early digging; mustard flowering.",
-      "Gram sprouting; frost/fog precautions."
-    ],
-    "ur": [
-      "گندم: متوازن بڑھوتری۔",
-      "آلو: ابتدائی کھدائی؛ سرسوں میں پھول۔",
-      "چنے کی اگاؤ؛ کہر/دھند سے بچاؤ۔"
-    ]
-  },
-  "Poh": {
-    "en": [
-      "Protect vegetables from frost.",
-      "Irrigate wheat on sunny noon only.",
-      "Prune guava/ber after harvest."
-    ],
-    "ur": [
-      "سبزیوں کو کہر سے بچائیں۔",
-      "گندم کی آبپاشی دھوپ میں دوپہر کو کریں۔",
-      "کٹائی کے بعد امرود/بیری کی چھٹائی۔"
-    ]
-  },
-  "Magh": {
-    "en": [
-      "Top‑dress urea in wheat (tillering).",
-      "Scout rust in wheat; spray if needed.",
-      "Repair watercourses."
-    ],
-    "ur": [
-      "گندم میں یوریا کی ٹاپ ڈریسنگ (ٹِلرنگ).",
-      "گندم میں رسٹ کی نگرانی؛ ضرورت پر سپرے۔",
-      "کھالوں کی مرمت۔"
-    ]
-  },
-  "Phagan": {
-    "en": [
-      "Last irrigation to wheat (booting).",
-      "Weed control in gram & mustard.",
-      "Plan machinery for harvest."
-    ],
-    "ur": [
-      "گندم کو آخری پانی (بوٹنگ).",
-      "چنے و سرسوں میں جڑی بوٹی کنٹرول۔",
-      "کٹائی کے لیے مشینری کی تیاری۔"
+      "گندم اور چنے کی کٹائی کی تیاری؛ کمبائن اور بوریاں چیک کریں۔",
+      "بیج دھوپ میں خشک کریں؛ نمی 12٪ سے کم رکھیں۔"
     ]
   }
 }
